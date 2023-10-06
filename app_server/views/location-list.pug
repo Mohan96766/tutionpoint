@@ -1,0 +1,24 @@
+extends layout
+
+include _includes/sharedHTMLfunctions
+
+block content
+  .row.banner
+    .col-12
+
+  .row
+    .col-12.col-md-8
+      each center in tuitionCenters
+        .card
+          .card-block
+            h4
+              a(href=`/tuition`) #{center.name}
+              +outputRating(center.rating)
+              span.badge.badge-pill.badge-default.float-right= center.distance
+            p.address= center.address
+            .facilities
+              each facility in center.facilities
+                span.badge.badge-warning= facility
+
+    .col-12.col-md-4
+      p.lead= sidebar
