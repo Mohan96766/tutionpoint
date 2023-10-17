@@ -1,7 +1,7 @@
 @import url("//fonts.googleapis.com/css?family=Lobster|Cabin:400,700");
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lobster', cursive;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 legend {
@@ -9,8 +9,8 @@ legend {
 }
 
 .navbar {
-  background-color: #8a5055;
-  border-color: #911821;
+  background-color: #141212;
+  border-color: #7821d5;
 }
 
 .navbar-light .navbar-brand {
@@ -19,8 +19,8 @@ legend {
 }
 
 .navbar-light .navbar-toggler {
-  color: white;
-  border-color: white;
+  color: rgb(41, 37, 37);
+  border-color: rgb(151, 17, 17);
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -28,13 +28,21 @@ legend {
 }
 
 .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-  color: white;
+  color: rgb(232, 216, 216);
 }
 
 .card {
-  background-color: #72614a;
+  margin-bottom: 10px;
+  background-color:brown;
   padding: 1rem;
 }
+.card-center-logo {
+  max-width: 100px; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto 10px; 
+}
+
 
 .card-primary {
   border-color: #444d3f;
@@ -77,7 +85,7 @@ h4 small {
 }
 
 h1 small {
-  color: #aaa;
+  color: #e9e3e3;
 }
 
 .address {
@@ -101,7 +109,11 @@ a:hover {
 }
 
 body {
+  background-image: url('https://dailytrust.com/wp-content/uploads/2021/04/education.jpg?w=640');
+  padding: 1rem;
   font-family: "Cabin", Arial, sans-serif;
   color: #fff;
-  background-color: #d4a8a8f4;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color:rgb(39, 16, 112);
 }
